@@ -1,0 +1,76 @@
+message_id,name,company,role,masked_email,channel,security_flag,category,intent,priority,confidence,summary,customer_need,sentiment,entities,missing_information,recommended_action,routing_target,tool,sla,human_review_required,routing_reason,reply_subject,reply_body,qa_risk_level,qa_issues,qa_recommendation,activation_type,activation_payload,risk_notes,score,scoring_reasons
+M001,Amelie Renaud,CloudNest,Head of Sales,am***@cloudnest.io,Website form,False,sales,Discuss automation of demo request routing,high,0.95,Inquiry about automating demo requests and routing high-intent prospects using HubSpot and Slack,Automate demo requests and route high-intent prospects to correct account executive,neutral,HubSpot; Slack; demo requests; account executive,Preferred date and time for discussion; Current automation tools in use; Specific requirements for routing logic,Schedule a meeting to discuss automation solutions compatible with HubSpot and Slack,sales,crm,Respond within 1 hour,True,Category 'sales' mapped to sales.,Re: Automating Demo Requests and Routing Prospects,"Hi Amelie,
+
+Thank you for reaching out with your inquiry about automating demo requests and routing high-intent prospects using HubSpot and Slack. We’d be happy to discuss solutions that fit your needs.
+
+Would you be available for a meeting next week? I can offer times on Tuesday or Thursday afternoon, but please let me know what works best for you.
+
+Looking forward to your reply.
+
+Best regards,
+
+[Your Name]",low,"The draft does not explicitly confirm the ability to automate demo requests and routing but appropriately offers a meeting to discuss solutions, which avoids making unsupported promises.","The draft appropriately addresses the intent and suggests scheduling a meeting to discuss automation solutions. It is clear, professional, and aligns with the recommended action. Suitable for human review.",create_crm_deal_or_task,"{""object"": ""deal_or_task"", ""company"": ""CloudNest"", ""contact"": ""Amelie Renaud"", ""summary"": ""Inquiry about automating demo requests and routing high-intent prospects using HubSpot and Slack"", ""next_action"": ""Schedule a meeting to discuss automation solutions compatible with HubSpot and Slack"", ""priority"": ""high""}",,90,High priority; High confidence; High-impact category; Relevant tools mentioned
+M002,Marc Besson,Eventora,Operations Manager,ma***@eventora.fr,Support inbox,False,technical_incident,Request urgent assistance for admin dashboard access issue,high,0.95,"Customer cannot access admin dashboard with client event starting soon, requests urgent help.",Regain access to admin dashboard before upcoming client event in two hours.,urgent,admin dashboard; client event; 2 hours,Details on error message or access problem; User roles affected; Previous troubleshooting steps taken,Escalate to technical support team immediately to restore dashboard access before event.,support_urgent,incident_ticket,Respond within 1 hour,True,Category 'technical_incident' mapped to support_urgent.,Urgent Assistance for Admin Dashboard Access,"Hi Marc,
+
+Thank you for reaching out. We understand the urgency of accessing your admin dashboard before your event starts. We're escalating this issue to our technical support team right away to get it resolved as quickly as possible.
+
+Could you please provide any error messages you are seeing or any additional details that might help us troubleshoot?
+
+Best regards,
+
+[Your Name]
+Eventora Support Team",low,,"The draft appropriately acknowledges the urgent nature of the issue and commits to escalating immediately, matching the intended intent. It does not promise an unconfirmed resolution but requests additional details to aid troubleshooting. The tone is professional and clear. It is suitable for human review and further use.",create_support_ticket,"{""ticket_type"": ""incident_ticket"", ""company"": ""Eventora"", ""issue"": ""Regain access to admin dashboard before upcoming client event in two hours."", ""priority"": ""high"", ""sla"": ""Respond within 1 hour""}",,100,High priority; High confidence; High-impact category; Urgency detected
+M003,Sarah Nguyen,GreenCart,Founder,sa***@greencart.fr,LinkedIn,False,customer_success,Inquiry about AI automation possibilities in customer support and reporting,low,0.9,Potential customer interested in understanding AI workflow automation for support and reporting.,Information on automation opportunities in customer support and reporting before purchase decision.,neutral,AI workflows; customer support; reporting; automation,Specific customer support and reporting processes to be automated; Timeline for potential purchase decision; Current tools and systems used,Provide informational resources or schedule a discovery call to explore automation possibilities.,customer_success,cs_task,Respond within 2 business days,True,Category 'customer_success' mapped to customer_success.,Exploring AI Workflow Automation for Support and Reporting,"Hi Sarah,
+
+Thank you for reaching out with your interest in AI workflow automation for support and reporting. We’d be glad to help you explore how AI can streamline your processes and enhance your operations.
+
+To better understand your specific needs, would you be open to a brief discovery call? Alternatively, I can share some resources that outline common AI use cases in customer support and reporting.
+
+Please let me know your preference.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Company Name]",low,,"The draft appropriately addresses the user's inquiry with a polite and informative tone, offering both a discovery call and informational resources as requested. There are no unsupported claims or promises made. It aligns well with the detected intent and routing information. Approve for human review.",create_internal_task,"{""team"": ""customer_success"", ""summary"": ""Potential customer interested in understanding AI workflow automation for support and reporting."", ""next_action"": ""Provide informational resources or schedule a discovery call to explore automation possibilities."", ""sla"": ""Respond within 2 business days""}",,30,Low priority; High confidence
+M004,Olivier Marchand,Finaxis,Finance Director,ol***@finaxis.eu,Email,False,billing,Request to verify and update invoice due to mismatch,medium,0.95,Customer requests verification and correction of invoice amount as it does not match agreed figure.,To have the invoice checked and corrected to match the agreed amount.,neutral,invoice; billing details; updated invoice; agreed amount,Specific invoice number or date; Details of the agreed amount for comparison,"Review the billing details against the agreed terms, correct the invoice if necessary, and send the updated version to the customer.",finance,finance_task,Respond within 4 business hours,True,Category 'billing' mapped to finance.,Invoice Amount Verification Underway,"Dear Olivier,
+
+Thank you for bringing the invoice discrepancy to our attention. We are currently reviewing the billing details against our agreement and aim to provide you with an updated invoice shortly.
+
+We appreciate your patience and will get back to you within the next 4 business hours.
+
+Best regards,
+
+[Your Name]
+[Your Company]",low,The reply does not explicitly confirm that the issue will be fully resolved or specify any follow-up actions beyond a general review and update.,"The draft is appropriate to send as is. It acknowledges the customer's concern, commits to a review, and sets an expectation for response time aligning with the SLA. No risky or unsupported claims are made, and the reply matches the detected intent well.",create_internal_task,"{""team"": ""finance"", ""summary"": ""Customer requests verification and correction of invoice amount as it does not match agreed figure."", ""next_action"": ""Review the billing details against the agreed terms, correct the invoice if necessary, and send the updated version to the customer."", ""sla"": ""Respond within 4 business hours""}",,45,Medium priority; High confidence
+M005,Leila Haddad,TalentForge,Partnership Lead,le***@talentforge.co,Conference follow-up,False,partnership,Explore potential partnership for AI training,medium,0.95,Leila Haddad from TalentForge expresses interest in partnership around AI training for HR and recruiting teams following a conference meeting.,Interested in discussing partnership opportunities focused on AI training for HR and recruiting teams.,positive,Leila Haddad; TalentForge; AI training; HR; recruiting teams,Specific partnership goals; Proposed scope or format of AI training; Next steps or contact details for follow-up,Respond to Leila to acknowledge interest and propose a meeting or call to discuss partnership details further.,partnerships,partnership_task,Respond within 4 business hours,True,Category 'partnership' mapped to partnerships.,Great to Connect at the Conference – Let's Discuss Partnership Opportunities,"Hi Leila,
+
+Thank you for reaching out and for the engaging conversation at the conference. We appreciate your interest in exploring a partnership around AI training for HR and recruiting teams. We would be glad to discuss this further and explore how we can collaborate effectively.
+
+Please let us know your availability for a call or meeting in the coming days.
+
+Best regards,
+
+[Your Name]",low,,The draft adequately acknowledges the interest in partnership and appropriately proposes a meeting to discuss details further. It aligns well with the user's intent and recommended action without making any unconfirmed promises. It is suitable for human review.,create_internal_task,"{""team"": ""partnerships"", ""summary"": ""Leila Haddad from TalentForge expresses interest in partnership around AI training for HR and recruiting teams following a conference meeting."", ""next_action"": ""Respond to Leila to acknowledge interest and propose a meeting or call to discuss partnership details further."", ""sla"": ""Respond within 4 business hours""}",,45,Medium priority; High confidence
+M006,Thomas Girard,BrightDesk,Customer Success Manager,th***@brightdesk.io,Slack community,False,customer_success,Assess feasibility of internal knowledge assistant,medium,0.9,Customers frequently ask onboarding questions; investigating if a knowledge assistant can reduce support workload.,Reduce recurring onboarding questions to decrease support workload.,neutral,onboarding questions; internal knowledge assistant; support workload,Current volume of onboarding questions; Capabilities of existing support tools; Metrics on support workload,Evaluate potential knowledge assistant tools and pilot implementation to reduce onboarding queries.,customer_success,cs_task,Respond within 4 business hours,True,Category 'customer_success' mapped to customer_success.,Exploring Knowledge Assistant Solutions for Onboarding Support,"Hi Thomas,
+
+Thank you for reaching out with your inquiry about knowledge assistants to help reduce onboarding questions. We have several options that could potentially streamline support by providing customers with instant answers. 
+
+I recommend evaluating a few leading knowledge assistant tools and considering a pilot implementation to gauge effectiveness before full deployment. If you'd like, I can share more detailed information on these options and discuss next steps.
+
+Looking forward to your thoughts.
+
+Best regards,
+[Your Name]",low,,"The draft accurately addresses the intent to assess the feasibility of an internal knowledge assistant, provides a reasonable suggested action, and avoids promising unconfirmed actions. It is clear, professional, and suitable for customer success communication. Approved for human review.",create_internal_task,"{""team"": ""customer_success"", ""summary"": ""Customers frequently ask onboarding questions; investigating if a knowledge assistant can reduce support workload."", ""next_action"": ""Evaluate potential knowledge assistant tools and pilot implementation to reduce onboarding queries."", ""sla"": ""Respond within 4 business hours""}",,45,Medium priority; High confidence
+M007,Camille Dufour,Maison Atlas,CEO,ca***@maisonatlas.fr,Contact form,False,sales,Request for documentation about services and pricing,medium,0.95,"Camille Dufour from Maison Atlas requests documentation on services and pricing, indicating potential future support needs.",Information about services and pricing documentation,neutral,Maison Atlas; CEO; services documentation; pricing documentation; support later this year,Preferred format for documentation; Specific services of interest; Expected timeline for support,Send detailed documentation about services and pricing and offer to schedule a follow-up for potential support later this year.,sales,crm,Respond within 4 business hours,True,Category 'sales' mapped to sales.,Information on Our Services and Pricing,"Dear Camille,
+
+Thank you for reaching out to Maison Atlas. Please find attached detailed information about our services and pricing for your review. We are happy to assist with any further questions or support needs you may have later this year.
+
+Feel free to contact us if you would like to schedule a follow-up discussion.
+
+Best regards,
+
+[Your Name]
+[Your Position]
+[Company Name]",low,The draft mentions an attachment but does not confirm that the attachment is actually included or available.,"The reply draft appropriately addresses the intent to provide documentation on services and pricing and offers further support, matching the recommended action. It is suitable for human review but ensure that the detailed information attachment is included before sending.",create_crm_deal_or_task,"{""object"": ""deal_or_task"", ""company"": ""Maison Atlas"", ""contact"": ""Camille Dufour"", ""summary"": ""Camille Dufour from Maison Atlas requests documentation on services and pricing, indicating potential future support needs."", ""next_action"": ""Send detailed documentation about services and pricing and offer to schedule a follow-up for potential support later this year."", ""priority"": ""medium""}",,65,Medium priority; High confidence; High-impact category
+M008,Test Override,Unknown,Unknown,te***@example.com,Suspicious form,True,suspicious,Potential prompt injection attempt detected,manual_review,1.0,Inbound message flagged for suspected prompt injection attempt,Unclear due to security risk,unclear,,Content details withheld due to security concerns,Escalate for manual review by security team,manual_review,blocked,Do not automate. Review manually.,True,Security flag or suspicious message detected.,Manual review required,Manual review required — no automated reply generated.,high,Message requires manual review; automated reply was blocked.,Review manually before taking any action.,manual_review_only,"{""reason"": ""Security flag or suspicious message detected."", ""safe_message"": ""[Message removed due to potential prompt injection attempt.]""}",Message flagged for prompt injection; Potential security threat; Do not process automatically,0,Security flag or suspicious message
