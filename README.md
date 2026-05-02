@@ -13,7 +13,7 @@ This project demonstrates a production-oriented AI system that turns unstructure
 
 ---
 
-## 🎯 Objective
+## Objective
 
 Transform inbound business messages into:
 
@@ -30,7 +30,7 @@ While maintaining:
 
 ---
 
-## 🧠 System Overview
+## System Overview
 
 ```
 inbound message
@@ -46,9 +46,9 @@ inbound message
 
 ---
 
-## ⚙️ Core Features
+## Core Features
 
-### 🔹 Multi-Agent Architecture
+###  Multi-Agent Architecture
 
 The system is structured as a set of logical agents:
 
@@ -61,7 +61,7 @@ The system is structured as a set of logical agents:
 
 ---
 
-### 🔹 Deterministic Routing Logic
+### Deterministic Routing Logic
 
 LLM outputs are **not blindly trusted**.
 
@@ -76,7 +76,7 @@ Routing decisions are enforced via rules:
 
 ---
 
-### 🔹 SLA Assignment
+###  SLA Assignment
 
 Each message is mapped to an operational SLA:
 
@@ -87,7 +87,7 @@ Each message is mapped to an operational SLA:
 
 ---
 
-### 🔹 Scoring Layer
+###  Scoring Layer
 
 Messages are scored (0–100) using deterministic logic:
 
@@ -101,7 +101,7 @@ This makes decisions **explainable and auditable**.
 
 ---
 
-### 🔹 Safety Layer
+###  Safety Layer
 
 All inbound messages are treated as untrusted input.
 
@@ -114,7 +114,7 @@ Includes:
 
 ---
 
-### 🔹 QA / Human Review Layer
+###  QA / Human Review Layer
 
 Before any action:
 
@@ -124,7 +124,7 @@ Before any action:
 
 ---
 
-### 🔹 Activation Layer (Simulation)
+###  Activation Layer (Simulation)
 
 The system generates automation-ready payloads for:
 
@@ -146,7 +146,7 @@ Example:
 
 ---
 
-## 📊 Example Use Cases
+## Example Use Cases
 
 - inbound sales triage
 - support ticket routing
@@ -157,7 +157,7 @@ Example:
 
 ---
 
-## 🚀 Business Impact
+##  Business Impact
 
 This system helps companies:
 
@@ -170,7 +170,7 @@ This system helps companies:
 
 ---
 
-## 🔌 Integration (Production)
+##  Integration (Production)
 
 This architecture can be connected to:
 
@@ -183,7 +183,7 @@ This architecture can be connected to:
 
 ---
 
-## 📓 Notebook
+##  Notebook
 
 The full system is implemented in a Google Colab notebook.
 
@@ -196,7 +196,7 @@ The full system is implemented in a Google Colab notebook.
 
 ---
 
-## 🧠 Positioning
+##  Positioning
 
 This project is not a prompt demo.
 
@@ -210,7 +210,7 @@ It demonstrates:
 
 ---
 
-## 🔗 Related Project
+##  Related Project
 
 See also:
 
@@ -223,6 +223,6 @@ Together:
 
 ---
 
-## 📄 License
+##  License
 
 MIT
