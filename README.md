@@ -4,12 +4,43 @@ Developed by Sabrina Palis
 
 *MSc Artificial Intelligence (First Class Honours)*
 
-AI Systems • Workflow Automation • AI Operations
+AI Engineering • Multi-Agent Systems • Workflow Automation
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![OpenAI](https://img.shields.io/badge/OpenAI-API-green)
 ![Status](https://img.shields.io/badge/Status-Production--oriented-orange)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+<p align="center">
+  <img src="ops-flow-ai-image.png" alt="OpsFlow AI Architecture">
+</p>
+
+> Demonstrates how AI can safely automate operational workflows by combining multi-agent reasoning, deterministic business rules, SLA assignment, and human oversight.
+
+## Executive Summary
+
+OpsFlow AI is a multi-agent operations routing system that transforms inbound business messages into structured actions, SLA-aware workflows, routing decisions, and automation-ready payloads.
+
+The architecture combines LLM reasoning, deterministic business rules, safety controls, and human-in-the-loop approval to support real-world operational workflows.
+
+---
+
+## Key Skills Demonstrated
+
+- Python
+- OpenAI API
+- Multi-Agent Systems
+- Workflow Automation
+- AI Engineering
+- Business Process Automation
+- Prompt Engineering
+- Structured Outputs
+- Human-in-the-Loop AI
+- Safety & Guardrails
+- Operational AI Systems
+- Production-Oriented Architecture
+
+---
 
 **Multi-Agent AI Client Operations Router with Safety, SLA, and Activation Layer**
 
@@ -33,22 +64,6 @@ While maintaining:
 - safety (untrusted input handling)
 - deterministic business logic
 - human-in-the-loop control
-
----
-
-## System Overview
-
-```
-inbound message
-→ safety agent
-→ classification agent
-→ entity extraction agent
-→ priority + SLA assignment
-→ routing agent
-→ reply drafting agent
-→ QA agent
-→ activation payload
-```
 
 ---
 
@@ -176,6 +191,28 @@ This system helps companies:
 
 ---
 
+## Example Workflow
+
+### Incoming Message
+
+> We are experiencing intermittent outages affecting customer logins. The issue is impacting production users.
+
+### System Output
+
+| Field | Value |
+|---------|---------|
+| Category | Technical Incident |
+| Priority | High |
+| SLA | 1 Hour |
+| Route | Incident Escalation |
+| Human Review | Required |
+
+### Result
+
+The message is escalated immediately, routed to incident management, and flagged for human review before any external communication.
+
+---
+
 ##  Integration (Production)
 
 This architecture can be connected to:
@@ -220,7 +257,7 @@ It demonstrates:
 
 See also:
 
-👉 **leadflow-ai** — AI lead qualification and scoring system
+👉 **[leadflow-ai](https://github.com/MinervaRose/leadflow-ai)** — AI lead qualification and scoring system
 
 Together:
 
