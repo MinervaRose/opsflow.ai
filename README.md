@@ -1,5 +1,11 @@
 # opsflow-ai
 
+Developed by Sabrina Palis
+
+*MSc Artificial Intelligence (First Class Honours)*
+
+AI Systems • Workflow Automation • AI Operations
+
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![OpenAI](https://img.shields.io/badge/OpenAI-API-green)
 ![Status](https://img.shields.io/badge/Status-Production--oriented-orange)
